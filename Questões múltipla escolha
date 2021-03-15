@@ -1,0 +1,14 @@
+QUESTÃO 01 RESPOSTA:
+O php necessita de um servidor para ser interpretado, independente de Sistema Operacional.
+
+QUESTÃO 02 RESPOSTA:
+/* */
+
+QUESTÃO 03 RESPOSTA:
+ <?php $array = array(); ?>
+ 
+QUESTÃO 04 RESPOSTA:
+GET e POST.
+
+QUESTÃO 05 RESPOSTA:
+A inicialização de uma estrutura de decisão em php pode ser <?php else(condicao){ comandos } if {comandos} ;?>
