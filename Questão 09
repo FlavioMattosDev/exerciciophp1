@@ -1,0 +1,14 @@
+<?php
+
+	$Frutas = "Laranja_Maça_Pera_Goiaba_Banana_Acerola";
+
+	$divisor = explode("_", $Frutas);
+
+	$reverso = array_reverse($divisor);
+
+	$final = implode("<br>", $reverso);
+
+	echo $final;
+	echo "\r\n";
+
+?>
