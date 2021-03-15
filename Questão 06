@@ -1,0 +1,30 @@
+<?php
+
+	$notaPhp = 10;
+	$notaHtml = 9;
+	$notaCss = 7;
+	$notaJavascript = 5;
+	$notaJava = 8;
+	$notaC1 = 9;
+	$notaC2 = 6;
+	$notaPython = 10;
+	$notaRuby = 8;
+	$notaPerl = 7;
+
+
+echo "A nota de Php é: $notaPhp <br>";
+echo "A nota de Html é: $notaHtml <br>";
+echo "A nota de Css é: $notaCss <br>";
+echo "A nota de Javascript é: $notaJavascript <br>";
+echo "A nota de Java é: $notaJava <br>";
+echo "A nota de C é: $notaC1 <br>";
+echo "A nota de C++ é: $notaC2 <br>";
+echo "A nota de Python é: $notaPython <br>";
+echo "A nota de Ruby é: $notaRuby <br>";
+echo "A nota de Perl é: $notaPerl <br>";
+
+$media = ($notaPhp + $notaHtml + $notaCss + $notaJavascript + $notaJava + $notaC1 + $notaC2 + $notaPython + $notaRuby + $notaPerl) / 10;
+
+echo "<strong>A média é: $media</strong>"
+
+?>
